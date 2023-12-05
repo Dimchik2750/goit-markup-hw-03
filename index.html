@@ -14,18 +14,19 @@
   </head>
   <body>
     <header>
-      <nav>
-        <a class="logo" href="./index.html"
+      <div class="container header-container">
+      <nav class="header-nav">
+        <a class="header-logo" href="./index.html"
           >Web<span class="logo-item">Studio</span>
         </a>
-        <ul>
-          <li><a class="nav-link" href="./index.html">Studio</a></li>
+        <ul class="nav-list">
           <li><a class="nav-link" href="">Portfolio</a></li>
           <li><a class="nav-link" href="">Contacts</a></li>
+          <li><a class="nav-link" href="./index.html">Studio</a></li>
         </ul>
       </nav>
       <address class="address">
-        <ul>
+        <ul class="address-list">
           <li>
             <a class="address-link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
@@ -38,39 +39,43 @@
           </li>
         </ul>
       </address>
+      </div>
     </header>
     <main>
       <!--Section-1-->
       <section class="section-hero">
+        <div class="container">
         <h1 class="hero">Effective Solutions for Your Business</h1>
         <button class="button" type="button">Order Service</button>
+        </div>
       </section>
       <!--Section-2-->
-      <section>
-        <h2>Advantages</h2>
-        <ul>
-          <li>
+      <section class="advantages">
+        <div class="container">
+        <h2 class="visually-hidden">Advantages</h2>
+        <ul class="advantages-list">
+          <li class="advantages-item">
             <h3 class="section-advantages">Strategy</h3>
             <p class="text-advantages">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
+          <li class="advantages-item">
             <h3 class="section-advantages">Punctuality</h3>
             <p class="text-advantages">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
+          <li class="advantages-item">
             <h3 class="section-advantages">Diligence</h3>
             <p class="text-advantages">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
+          <li class="advantages-item">
             <h3 class="section-advantages">Technologies</h3>
             <p class="text-advantages">
               Design practice focused on digital experiences. We bring forth a
@@ -78,11 +83,13 @@
             </p>
           </li>
         </ul>
+        </div>
       </section>
       <!--Section-3-->
       <section class="our-team-section">
+        <div class="container">
         <h2 class="our-team">Our Team</h2>
-        <ul>
+        <ul class="our-team-list">
           <li class="list-team">
             <img src="./images/img-3.jpg" alt="Product Designer" width="264" />
             <h3 class="name">Mark Guerrero</h3>
@@ -108,46 +115,50 @@
             <p class="job">UI Designer</p>
           </li>
         </ul>
+        </div>
       </section>
       <!--Section-4-->
-      <section>
+      <section class="portfolio-section">
+        <div class="container">
         <h2 class="portfolio">Our Portfolio</h2>
-        <ul>
-          <li>
+        <ul class="portfolio-list">
+          <li class="portfolio-item">
             <img src="./images/card-1.jpg" alt="App" width="360" />
             <h3 class="portfolio-app">Banking App</h3>
             <p class="portfolio-view">App</p>
           </li>
-          <li>
+          <li class="portfolio-item">
             <img src="./images/card-2.jpg" alt="Marketing" width="360" />
             <h3 class="portfolio-app">Cashless Payment</h3>
             <p class="portfolio-view">Marketing</p>
           </li>
-          <li>
+          <li class="portfolio-item">
             <img src="./images/card-3.jpg" alt="App" width="360" />
             <h3 class="portfolio-app">Meditation App</h3>
             <p class="portfolio-view">App</p>
           </li>
-          <li>
+          <li class="portfolio-item">
             <img src="./images/card-4.jpg" alt="Marketing" width="360" />
             <h3 class="portfolio-app">Taxi Service</h3>
             <p class="portfolio-view">Marketing</p>
           </li>
-          <li>
+          <li class="portfolio-item">
             <img src="./images/card-5.jpg" alt="Design" width="360" />
             <h3 class="portfolio-app">Screen Illustrations</h3>
             <p class="portfolio-view">Design</p>
           </li>
-          <li>
+          <li class="portfolio-item">
             <img src="./images/card-6.jpg" alt="Marketing" width="360" />
             <h3 class="portfolio-app">Online Courses</h3>
             <p class="portfolio-view">Marketing</p>
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
-      <a class="logo" href="index.html"
+      <div class="container">
+      <a class="footer-logo" href="index.html"
         >Web<span class="logo-footer">Studio</span></a
       >
       <p class="text-footer">
@@ -155,5 +166,6 @@
         marketing & growth solutions.
       </p>
     </footer>
+    </div>
   </body>
 </html>
